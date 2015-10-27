@@ -1,0 +1,93 @@
+/*
+Color: #d9d6ff e8e6fa
+*/
+
+.calendar_title {
+    margin-top: 55px;
+    text-align: center;   
+}
+
+.calendar_complete {
+    background-color: #d9d6ff;
+}
+
+.calendar_title:after {
+    display: block;
+    height: 3px;
+    background-color: #b2b8ff;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* ------------------------------- */
+
+.calendar_day {
+    width: 100%;
+    margin: 10px 0 3px 0; /* TOp Right Bot Left*/
+    text-align: center;
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+.calendar_gamesbox {
+    width: 100%;
+}
+
+/* ---------------- */
+
+.calendar_gameimage {
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    overflow: hidden;/* It hides the image part that is outside of the borders*/
+}
+
+.calendar_gameimage img {
+    width: 100%;
+}
+
+/* ------------------------------- */
+
+.calendar_month {
+    padding: 15px;
+    width: 100%;
+    background-color: #e8e6fa;
+    text-align: center;
+}
+
+.calendar_viewmore {
+    padding: 15px;
+    width: 100%;
+    background-color: #e8e6fa;
+    text-align: center;
+}
+
+/* ------------------------------- */
+
+.calendar_buttonfull {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-size: 100%;
+    text-align: center;
+}
+
+.calendar_textbutton {
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #b2b8ff;
+    transition: all 0.3s;
+}
+.calendar_textbutton:hover {
+    height: 3px;
+    background-color: #dee0f8;
+    padding: 5px;
+    content: " ";
+    width: 200px;
+    margin-top: 1px;
+    margin-bottom: 15px;
+}
